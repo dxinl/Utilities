@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Sticky Observable can update observer with last changed value.
+ * Sticky Observable will update observer with last changed value.
  */
 public class StickyObservable<T> {
     private final List<Observer<T>> mObservers = new ArrayList<>();
